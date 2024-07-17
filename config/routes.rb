@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :articles
   resources :info_cards
   resources :projects
   get 'pages/home'

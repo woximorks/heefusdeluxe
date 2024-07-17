@@ -55,7 +55,7 @@ InfoCard.create!([{
     info_card_description: "Check out my instagram (@closeenoughfabrication) or my Youtube channel (@awdevelopment) to learn a bit more about me. The portfolio section contains some of my recent projects I've been working on, with an initial emphasis on very basic HTML / CSS / JavaScript principles, and more recently how to apply some of this same logic using Ruby on Rails as a framework. I'll also continue to update that portfolio section regularly with new projects as I continue my development journey, using Rails and other languages or frameworks as necessary.",
     info_card_image_url: "about3",
     info_card_type: "about"
-}
+},
 
 =begin
 {
@@ -63,6 +63,23 @@ InfoCard.create!([{
     info_card_description: "",
     info_card_image_url: "",
     info_card_type: ""
+}
+=end
+])
+
+Article.create!([{
+    article_title: "Blog Basics",
+    article_description: "This is a short description, 2-3 sentences with some basic information about the article in question. Sometimes it might make sense to just use the first 2-3 sentences of the article if you aren't feeling creative",
+    article_body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    article_image_url: "blog1"
+}
+
+=begin
+{
+    article_title: "",
+    article_description: "",
+    article_body: "",
+    article_image_url: "",
 }
 =end
 ])

@@ -2,10 +2,15 @@
 
 <div id="portfolio">
   <% @projects.each do |project| %>
-
-    <%= project.project_title %>
-    <%= image_tag("#{project.project_image_url}") %>
-    <%= project.project_description %>
+    <div>
+        <%= project.project_title %>
+    </div>
+    <div>
+        <%= image_tag("#{project.project_image_url}") %>
+    </div>
+    <div>
+        <%= project.project_description %>
+    </div>
   <% end %>
 </div>
 
@@ -16,4 +21,13 @@
     <%= image_tag("#{info_card.info_card_image_url}") %>
     <%= info_card.info_card_description %>
   <% end %>
+</div>
+
+<div id="blog">
+    <% @articles.each do |article| %>
+
+        <%= article.article_title %>
+        <%= image_tag("#{article.article_image_url}") %>
+        <%= article.article_description %>
+    <% end %>
 </div>

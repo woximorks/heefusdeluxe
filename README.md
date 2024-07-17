@@ -28,3 +28,14 @@
 
 - 2.2 Updated seeds file with some starter info
     Added to seeds.rb file to update as necessary
+
+--------------------------------------
+
+3 - Creating blog section, some homepage cleanup
+
+- 3.1 created the blog or related article section
+    rails g scaffold Article article_title article_body:text article_description article_image_url
+
+- 3.2 Same as 2.2, starter info added to seeds file
+
+- 3.3 Cleaned up the homepage by adding some divs for now
