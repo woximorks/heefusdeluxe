@@ -37,3 +37,32 @@ Here have a template
 }
 =end
 ])
+
+InfoCard.create!([{
+    info_card_title: "Basic Info",
+    info_card_description: "My name is Aaron, and I reside in Washington state. I recently graduated from Western Governors University with a degree in Business Administration - IT Management. I am continuing to supplement this education with a variety of web based programming certifications such as freeCodeCamp and Codecademy, alongside the use of web programming in a real world setting, through the creation of programs, applications, and websites. When I'm not behind a computer, I might be spending time with my son Ryder, or out enjoying the Pacific Northwest on my Paddleboard.",
+    info_card_image_url: "about1",
+    info_card_type: "about"
+},
+{
+    info_card_title: "Professionally Speaking",
+    info_card_description: "My time at MoxiWorks is spent troubleshooting and escalating platform related bugs to our engineering team. My knowledge surrounding the use of Moxi itself, our database, API, Datadog, Ruby on Rails, and the ability to navigate and understand developer tools within the web browser has proven effective when determining how to escalate tickets through engineering while in this role. I am also responsible for managing related story tickets, tracking issues as they come in and organizing / linking these as related within Jira or Asana in some way.",
+    info_card_image_url: "about2",
+    info_card_type: "about"
+},
+{
+    info_card_title: "Wrapping Up",
+    info_card_description: "Check out my instagram (@closeenoughfabrication) or my Youtube channel (@awdevelopment) to learn a bit more about me. The portfolio section contains some of my recent projects I've been working on, with an initial emphasis on very basic HTML / CSS / JavaScript principles, and more recently how to apply some of this same logic using Ruby on Rails as a framework. I'll also continue to update that portfolio section regularly with new projects as I continue my development journey, using Rails and other languages or frameworks as necessary.",
+    info_card_image_url: "about3",
+    info_card_type: "about"
+}
+
+=begin
+{
+    info_card_title: "",
+    info_card_description: "",
+    info_card_image_url: "",
+    info_card_type: ""
+}
+=end
+])

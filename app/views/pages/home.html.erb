@@ -8,3 +8,12 @@
     <%= project.project_description %>
   <% end %>
 </div>
+
+<div id="about">
+  <% @info_cards.each do |info_card| %>
+
+    <%= info_card.info_card_title %>
+    <%= image_tag("#{info_card.info_card_image_url}") %>
+    <%= info_card.info_card_description %>
+  <% end %>
+</div>

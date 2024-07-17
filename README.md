@@ -18,3 +18,13 @@
     See updates to the seeds.rb file, run rails db:seed to pull this data
     The 3 images added will also correspond to the project_image_url for now, as seen on the view file
         <%= image_tag("#{project.project_image_url}") %>
+
+--------------------------------------
+
+2 - Creating the about section on the homepage
+
+- 2.1 Created the info card structure
+    rails g scaffold InfoCard info_card_title info_card_description:text info_card_image_url info_card_type
+
+- 2.2 Updated seeds file with some starter info
+    Added to seeds.rb file to update as necessary

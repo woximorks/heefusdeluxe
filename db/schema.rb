@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_07_17_003425) do
+ActiveRecord::Schema[7.1].define(version: 2024_07_17_020719) do
+  create_table "info_cards", force: :cascade do |t|
+    t.string "info_card_title"
+    t.text "info_card_description"
+    t.string "info_card_image_url"
+    t.string "info_card_type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "projects", force: :cascade do |t|
     t.string "project_title"
     t.string "project_url"
