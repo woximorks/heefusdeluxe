@@ -1,0 +1,10 @@
+<h1>Welcome to GETAWD</h1>
+
+<div id="portfolio">
+  <% @projects.each do |project| %>
+
+    <%= project.project_title %>
+    <%= image_tag("#{project.project_image_url}") %>
+    <%= project.project_description %>
+  <% end %>
+</div>

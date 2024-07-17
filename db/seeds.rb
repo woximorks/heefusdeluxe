@@ -7,3 +7,33 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Project.create!([{
+    project_title: "Close Enough Fabrication",
+    project_url: "cefab-offroad.com",
+    project_image_url: "cefablogo",
+    project_description: "lorem ipsum"
+},
+{
+    project_title: "Beard Industries",
+    project_url: "beardindustries.com",
+    project_image_url: 'beardlogo',
+    project_description: "lorem beardsum"
+},
+{
+    project_title: "WhackAMole",
+    project_url: "https://master.d2rge8c7efug7r.amplifyapp.com/",
+    project_image_url: "whackamolelogo",
+    project_description: "Lorem guacamole"
+}
+=begin
+Here have a template
+
+{
+    project_title: "",
+    project_url: "",
+    project_image_url: "",
+    project_description: ""
+}
+=end
+])

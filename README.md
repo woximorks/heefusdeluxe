@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1 - Creating the site framework with initial emphasis on the Portfolio / Project section, putting some projects on the home page through the seed file
 
-Things you may want to cover:
+- 1.1 Created some starting pages (about, home, portfolio)
+    rails g controller Pages home about portfolio
 
-* Ruby version
+- 1.2 created project structure
+    rails g scaffold Project project_title project_url project_description:text project_image_url
 
-* System dependencies
+- 1.3 Projects display within the portfolio
+    See updates to the home.html.erb view file
+    And pages_controller (@projects = Project.all)
 
-* Configuration
+- 1.4 Set route for home page to be root page
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- 1.5 Seed database with 3 projects (https://ninjadevel.com/seeding-database-ruby-on-rails/)
+    See updates to the seeds.rb file, run rails db:seed to pull this data
+    The 3 images added will also correspond to the project_image_url for now, as seen on the view file
+        <%= image_tag("#{project.project_image_url}") %>
