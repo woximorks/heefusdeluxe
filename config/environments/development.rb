@@ -73,4 +73,7 @@ Rails.application.configure do
 
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
+
+  # devise (see step 4 of README) when sending an email in development environment, it's using localhost 3000
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end

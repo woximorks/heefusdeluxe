@@ -39,3 +39,27 @@
 - 3.2 Same as 2.2, starter info added to seeds file
 
 - 3.3 Cleaned up the homepage by adding some divs for now
+
+--------------------------------------
+
+4 - Using the Devise gem to authenticate users
+    https://gorails.com/episodes/authenticating-blog-admin-pages
+
+- 4.1 Adding Devise
+    bundle add devise
+    rails g devise:install (also added  to development.rb and alerts / notices to application view file manually)
+
+- 4.2 Creating the devise user model
+    rails g devise User
+
+- 4.3 Updated related files so that new users cannot be created
+    removed :registerable from user model
+    added logic to home.html.erb for the user to log out if they are signed in (and some other commented out logic that would allow user to do other things if registerable was still a thing)
+
+- 4.4 Updated seeds.rb file to create a dummy user for testing purposes
+
+- 4.5 Updated the Articles view files to ensure the user is logged in before changes can be made, or new articles published
+    Adding <% if user_signed_in? %> to index.html.erb, show.html.erb
+
+- 4.6 Updated articles_controller to ensure user is logged for Article edit pages
+    before_action :authenticate_user!, except: [:index, :show]

@@ -1,5 +1,7 @@
 <h1>Welcome to GETAWD</h1>
 
+
+
 <div id="portfolio">
   <% @projects.each do |project| %>
     <div>
@@ -20,6 +22,15 @@
     <%= info_card.info_card_title %>
     <%= image_tag("#{info_card.info_card_image_url}") %>
     <%= info_card.info_card_description %>
+  <% end %>
+</div>
+
+<div>
+  <% if user_signed_in? %>
+    <%#= link_to "Profile", edit_user_registration_path %>
+    <%= button_to "Log Out", destroy_user_session_path, method: :delete %>
+    <%# else %>
+    <%#= link_to "Login", new_user_session_path %>
   <% end %>
 </div>
 

@@ -65,3 +65,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "hotwire-rails", "~> 0.1.3"
+
+gem "devise", "~> 4.9"
