@@ -63,3 +63,25 @@
 
 - 4.6 Updated articles_controller to ensure user is logged for Article edit pages
     before_action :authenticate_user!, except: [:index, :show]
+
+--------------------------------------
+
+5 - Front end display organization
+
+- 5.1 Homepage view updates
+    Updated article on homepage view to add a link to the actual article
+    <%= link_to "...Keep Reading", article %>
+    added ul > li as required to ensure the items are displaying with correct spacing and line breaks
+    Added some h3 tags with short descriptions for each individual section
+    Reversed the order of the articles and how they display so that the newest article shows first
+
+- 5.2 Updated article show view to additionally add a link to go back home
+    <%= link_to "Home", root_path %>
+
+- 5.3 Set some standard image widths of 500px across all of the uploaded images
+
+- 5.4 Added to seeds.rb 
+    Updated some of the descriptions in the seeds.rb file to more accurately depict actual sizing requirements
+    Added some additional articles that populate
+
+--------------------------------------

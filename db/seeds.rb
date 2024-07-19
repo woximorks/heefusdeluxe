@@ -12,19 +12,19 @@ Project.create!([{
     project_title: "Close Enough Fabrication",
     project_url: "cefab-offroad.com",
     project_image_url: "cefablogo",
-    project_description: "lorem ipsum"
+    project_description: "This is a website created to showcase one of my favorite hobbies outside of web development - off-road related fabrication, specific to 4WD and off-road vehicles. It showcases some of my ongoing shop projects, and other related content."
 },
 {
     project_title: "Beard Industries",
     project_url: "beardindustries.com",
     project_image_url: 'beardlogo',
-    project_description: "lorem beardsum"
+    project_description: "This website showcases Beard Industries LLC out of Pennsylvania, a heavy hauling and transport company responsible for delivering generators and other equimpent all across the East Coast."
 },
 {
     project_title: "WhackAMole",
     project_url: "https://master.d2rge8c7efug7r.amplifyapp.com/",
     project_image_url: "whackamolelogo",
-    project_description: "Lorem guacamole"
+    project_description: "A game built covering very basic HTML / CSS / Javascript principles while following the Whack A Mole FreeCodeCamp tutorial. I'm not much for hitting moles with hammers, so some customization has been applied so that the player instead fills a bowl of zesty digital guac after successfully smashing the ingredients with a hammer."
 }
 =begin
 Here have a template
@@ -72,6 +72,18 @@ Article.create!([{
     article_description: "This is a short description, 2-3 sentences with some basic information about the article in question. Sometimes it might make sense to just use the first 2-3 sentences of the article if you aren't feeling creative",
     article_body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     article_image_url: "blog1"
+},
+{
+    article_title: "Another Blog Post",
+    article_description: "This is a short description, 2-3 sentences with some basic information about the article in question. Sometimes it might make sense to just use the first 2-3 sentences of the article if you aren't feeling creative",
+    article_body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    article_image_url: "blog1",
+},
+{
+    article_title: "Yet Another Blog Post",
+    article_description: "This is a short description, 2-3 sentences with some basic information about the article in question. Sometimes it might make sense to just use the first 2-3 sentences of the article if you aren't feeling creative",
+    article_body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    article_image_url: "blog1",
 }
 
 =begin
