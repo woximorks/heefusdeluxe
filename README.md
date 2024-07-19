@@ -90,8 +90,14 @@
 
 - 6.1 git clone git@github.com:[repo owner/repo name]
 
-- 6.2 mv getawd heefusdeluxe
+- 6.2 mv getawd [repo name]
 
 - 6.3 git remote remove origin
 
 - 6.4 git remote add origin git@github.com:[repo owner/repo name]
+
+- 6.5 Deleted all images
+
+- 6.6 Erased all unrelated seeds file info, left some basic template stuff
+
+- 6.7 Updated home view file to support this template by commenting out image tags for now and removing the name of the app

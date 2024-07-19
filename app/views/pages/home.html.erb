@@ -1,4 +1,4 @@
-<h1>Welcome to GETAWD</h1>
+<h1>Welcome to App</h1>
 <h3></h3>
 
 
@@ -10,7 +10,7 @@
           <%= project.project_title %>
       </li>
       <li>
-          <%= image_tag("#{project.project_image_url}") %>
+          <%#= image_tag("#{project.project_image_url}") %>
       </li>
       <li>
           <%= project.project_description %>
@@ -26,7 +26,7 @@
         <%= info_card.info_card_title %>
       </li>
       <li>
-        <%= image_tag("#{info_card.info_card_image_url}") %>
+        <%#= image_tag("#{info_card.info_card_image_url}") %>
       </li>
       <li>
       <%= info_card.info_card_description %>
@@ -49,7 +49,7 @@
   <% @articles.reverse.each do |article| %>
     <ul>
       <li><%= article.article_title %></li>
-      <li><%= image_tag("#{article.article_image_url}") %></li>
+      <li><%#= image_tag("#{article.article_image_url}") %></li>
       <li><%= article.article_description %><%= link_to "...Keep Reading", article %></li>
     </ul>
   <% end %>
