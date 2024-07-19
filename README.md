@@ -85,3 +85,13 @@
     Added some additional articles that populate
 
 --------------------------------------
+
+6 Using this repository as a template
+
+- 6.1 git clone git@github.com:[repo owner/repo name]
+
+- 6.2 mv getawd heefusdeluxe
+
+- 6.3 git remote remove origin
+
+- 6.4 git remote add origin git@github.com:[repo owner/repo name]
