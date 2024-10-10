@@ -1,0 +1,17 @@
+<h1>Heath Richardson Comedy</h1>
+
+<% @info_cards.each do |info_card| %>
+  <div class="info-card">
+    <h2><%= info_card.info_card_title %></h2>
+    <p><%= info_card.info_card_description %></p>
+    <div class="info-card-image">
+      <%= image_tag(info_card.info_card_image, alt: info_card.info_card_title) if info_card.info_card_image.present? %>
+    </div>
+    <p>
+      <a href="<%= info_card.info_card_url %>" target="_blank"><%= info_card.info_card_url %></a>
+    </p>
+  </div>
+  <hr>
+<% end %>
+
+<%= link_to 'Home', root_path %>

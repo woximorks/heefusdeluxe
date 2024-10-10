@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  info_card_title: MyString
+  info_card_description: MyText
+  info_card_image: MyString
+  info_card_url: MyString
+
+two:
+  info_card_title: MyString
+  info_card_description: MyText
+  info_card_image: MyString
+  info_card_url: MyString

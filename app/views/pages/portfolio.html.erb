@@ -1,0 +1,17 @@
+<h1>Recent Highlights</h1>
+
+<% @projects.each do |project| %>
+  <div class="project">
+    <h2><%= project.project_title %></h2>
+    <p><%= project.project_description %></p>
+    <div class="project-image">
+      <%= image_tag(project.project_image, alt: project.project_title) if project.project_image.present? %>
+    </div>
+    <p>
+      <a href="<%= project.project_url %>" target="_blank"><%= project.project_url %></a>
+    </p>
+  </div>
+  <hr>
+<% end %>
+
+<%= link_to 'Home', root_path %>
