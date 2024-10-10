@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @upcoming_show %>
+
+<div>
+  <%= link_to "Edit this upcoming show", edit_upcoming_show_path(@upcoming_show) %> |
+  <%= link_to "Back to upcoming shows", upcoming_shows_path %>
+
+  <%= button_to "Destroy this upcoming show", @upcoming_show, method: :delete %>
+</div>

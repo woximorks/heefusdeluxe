@@ -1,10 +1,25 @@
-* You get on Heroku now
-    - https://devcenter.heroku.com/articles/getting-started-with-rails7#create-a-procfile
-    - https://stackoverflow.com/questions/46020753/the-asset-logo-png-is-not-present-in-the-asset-pipeline
+* Simple Calendar and supporting gems
+    * Initial Install and Setup
+        - Gems added to gemfile (bootstrap, dartsass-sprockets, simple_calendar)
+        - css converted to sass
+        - Import related files on application.scss
+        - https://github.com/twbs/bootstrap-rubygem
+        - https://github.com/excid3/simple_calendar
+    * Create the UpcomingShow scaffold
+        - rails g scaffold UpcomingShow name start_time:datetime end_time:datetime
+        - added as a resource to routes file
+    * Put the calendar on it's own page - calendar.html.erb
+        - Set route to /calendar
+        - Added calendar to pages controller, set upcoming_shows to display on that calendar
+    
 
 --------------------------------------
 
 * Previous Commits
+
+    * You get on Heroku now
+        - https://devcenter.heroku.com/articles/getting-started-with-rails7#create-a-procfile
+        - https://stackoverflow.com/questions/46020753/the-asset-logo-png-is-not-present-in-the-asset-pipeline
 
     * Initial Framework
         * Database Models

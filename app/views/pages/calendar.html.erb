@@ -1,0 +1,11 @@
+<%= month_calendar(events: @upcoming_shows) do |date, upcoming_shows| %>
+    <%= date.day %>
+
+    <% upcoming_shows.each do |upcoming_show| %>
+        <div>
+        <%= upcoming_show.name %>
+        </div>
+    <% end %>
+<% end %>
+
+<%= link_to 'Home', root_path %>

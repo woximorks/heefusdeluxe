@@ -1,0 +1,2 @@
+class UpcomingShow < ApplicationRecord
+end
