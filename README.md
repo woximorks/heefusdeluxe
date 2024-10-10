@@ -1,5 +1,6 @@
 * You get on Heroku now
     - https://devcenter.heroku.com/articles/getting-started-with-rails7#create-a-procfile
+    - https://stackoverflow.com/questions/46020753/the-asset-logo-png-is-not-present-in-the-asset-pipeline
 
 --------------------------------------
 
